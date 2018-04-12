@@ -7,14 +7,14 @@ public:
   Planet();
   Planet(int grav, int size);
   int get_grav() const;
-  int set_grav() ;
+  void set_grav(int x);
   int get_size() const;
-  int set_size() ;
+  void set_size(int y);
 
 
 
 private:
-  int x, y;
+  int grav, size;
 };
 
 #endif

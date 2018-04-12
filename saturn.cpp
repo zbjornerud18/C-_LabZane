@@ -11,19 +11,19 @@ saturn::saturn(int x, int y){
 	rings = x;
 	moons = y;
 }
-int Planet::get_rings() const
+int saturn::get_rings() const
 {
 	return rings;
 }
 
-int Planet::set_rings(int x) {
+void saturn::set_rings(int x) {
 	rings = x;
 }
 
-int Planet::set_moons(int y) {
+void saturn::set_moons(int y) {
 	moons = y;
 }
 
-int Planet::get_moons() const{
+int saturn::get_moons() const{
 	return moons;
 }

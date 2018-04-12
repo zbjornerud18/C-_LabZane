@@ -10,14 +10,14 @@ public:
   earth();
   earth(int pop, int moons);
   int get_pop() const;
-  int set_pop() ;
+  void set_pop(int x) ;
   int get_moons() const;
-  int set_moons() ;
+  void set_moons(int y) ;
 
 
 
 private:
-  int x, y;
+  int pop, moons;
 };
 
 #endif

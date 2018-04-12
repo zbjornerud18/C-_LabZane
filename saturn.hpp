@@ -10,14 +10,14 @@ public:
   saturn();
   saturn(int rings, int moons);
   int get_rings() const;
-  int set_rings() ;
+  void set_rings(int x) ;
   int get_moons() const;
-  int set_moons() ;
+  void set_moons(int y) ;
 
 
 
 private:
-  int x, y;
+  int rings, moons;
 };
 
 #endif 
